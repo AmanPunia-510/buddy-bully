@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+:root {
+    --fs-lg-70: 70px;
+    --fs-md-50: 50px;
+    --fs-sm-30: 30px;
+    --fs-sm-50: 50px;
+    --fs-sm-25: 25px;
+    --fs-sm-20: 20px;
+    --fs-70: 70px;
+    --fs-25: 25px;
+    --fs-21: 21px;
+    --fs-20: 20px;
+    --fs-16: 16px;
+    --fs-18: 18px;
+
+    /* font-weight */
+    --fw-300: 300;
+    --fw-400: 400;
+    --fw-500: 500;
+    --fw-600: 600;
+    --fw-700: 700;
+    --fw-800: 800;
+    --fw-900: 900;
+
+    /* line-height */
+
+    --line-height: 150%;
+    --line-height-86: 86px;
+
+    /* color */
+    --body-bg: #000A1A;
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --color-80: #80848C;
+    --color-b3: #B3C7D3;
+    --btn-color: #001D49;
+}
+
+.ff-poppins {
+    font-family: "Poppins", sans-serif;
+}
+
+.color-b3 {
+    color: var(--color-b3);
+}
+
+.color-80 {
+    color: var(--color-80);
+}
+
+.white-color {
+    color: var(--white-color);
+}
+
+.black-color {
+    color: var(--black-color);
+}
+
+.btn-color {
+    color: var(--btn-color);
+}
+
+.body-bg {
+    background-color: var(--body-bg);
+}
+
+.fs-21 {
+    font-size: var(--fs-21);
+}
+
+.fs-20 {
+    font-size: var(--fs-20);
+}
+
+.fs-16 {
+    font-size: var(--fs-16);
+}
+
+.fs-18 {
+    font-size: var(--fs-18);
+}
+
+.fs-25 {
+    font-size: var(--fs-25);
+}
+
+.fs-50 {
+    font-size: var(--fs-sm-50);
+}
+
+.fs-70 {
+    font-size: var(--fs-70);
+}
+
+.fw-300 {
+    font-weight: var(--fw-300);
+}
+
+.fw-400 {
+    font-weight: var(--fw-400);
+}
+
+.fw-500 {
+    font-weight: var(--fw-500);
+}
+
+.fw-600 {
+    font-weight: var(--fw-600);
+}
+
+.fw-700 {
+    font-weight: var(--fw-700);
+}
+
+.fw-800 {
+    font-weight: var(--fw-800);
+}
+
+.fw-900 {
+    font-weight: var(--fw-900);
+}
+
+.lh-150 {
+    line-height: var(--line-height);
+}
+
+.lh-86 {
+    line-height: var(--line-height-86);
+}
+
+
+
+@media (min-width: 576px) {
+    .fs-sm-50 {
+        font-size: var(--fs-md-50);
+    }
+
+    .fs-sm-25 {
+        font-size: var(--fs-25);
+    }
+
+    .fs-sm-20 {
+        font-size: var(--fs-20);
+    }
+}
+
+@media (min-width: 992px) {
+    .fs-lg-70 {
+        font-size: var(--fs-70);
+    }
+}

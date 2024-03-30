@@ -1,0 +1,96 @@
+@import url(../css/root.css);
+
+.section1 {
+    background-image: url(../images/section1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gap-80 {
+    gap: 80px;
+}
+
+.sec1-h {
+    max-width: 515px;
+}
+
+.sec1-txt {
+    max-width: 547px;
+}
+
+.get-btn {
+    width: 181px;
+    height: 51px;
+    border-radius: 45px;
+    outline: none;
+    border: none;
+}
+
+
+
+.min-vh-88 {
+    height: 88vh;
+}
+
+.navbar-items {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100vh;
+    background: black;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.menubar {
+    width: 40px;
+    height: 45px;
+    z-index: 2;
+}
+
+.show {
+    left: 0;
+}
+
+.menubar span {
+    width: 100%;
+    height: 3px;
+    background-color: var(--white-color);
+}
+
+@media (min-width: 320px) {}
+
+@media (min-width: 576px) {
+    .get-btn {
+        width: 255px;
+        height: 69px;
+        border-radius: 45px;
+        outline: none;
+        border: none;
+    }
+}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {
+    .navbar-items {
+        position: unset;
+        top: 0;
+        left: 0;
+        width: unset;
+        height: unset;
+        background: none;
+        justify-content: unset;
+        flex-direction: row;
+    }
+
+    .min-vh-lg-94 {
+        height: 90vh;
+    }
+}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1440px) {}
