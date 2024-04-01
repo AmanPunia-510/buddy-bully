@@ -189,6 +189,45 @@
     padding-top: 32px;
 }
 
+.footer{
+    background-image: url(../images/footer-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 622px;
+    margin-top: 42px;
+}
+
+.footer-p{
+    padding-top: 21px;
+    max-width: 388px;
+}
+
+.gmail{
+    margin-top: 20px;
+}
+
+.pt-65{
+    padding-top: 65px;
+}
+
+.pt-80{
+    padding-top: 80px;
+}
+
+.pt-179{
+    padding-top: 179px;
+}
+
+.pt-10{
+    padding-top: 10px;
+}
+
+.pt-6{
+    padding-top: 6px;
+}
+
 @media (max-width: 767.1px) {
 
     .timeline::after {
