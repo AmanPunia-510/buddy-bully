@@ -15,6 +15,7 @@
     --fs-sm-25: 25px;
     --fs-sm-20: 20px;
     --fs-70: 70px;
+    --fs-36: 36px;
     --fs-30: 30px;
     --fs-25: 25px;
     --fs-21: 21px;
@@ -43,6 +44,7 @@
     --color-80: #80848C;
     --color-b3: #B3C7D3;
     --btn-color: #001D49;
+    --box1-col4: #031227;
 }
 
 .ff-poppins {
@@ -94,6 +96,10 @@
 }
 
 .fs-30 {
+    font-size: var(--fs-30);
+}
+
+.fs-36 {
     font-size: var(--fs-30);
 }
 
