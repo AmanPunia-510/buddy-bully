@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -45,10 +45,15 @@
     --color-b3: #B3C7D3;
     --btn-color: #001D49;
     --box1-col4: #031227;
+    --accordian-color: #031227;
 }
 
 .ff-poppins {
     font-family: "Poppins", sans-serif;
+}
+
+.ff-mono{
+    font-family: "Montserrat";
 }
 
 .color-b3 {
