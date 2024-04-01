@@ -15,6 +15,7 @@
     --fs-sm-25: 25px;
     --fs-sm-20: 20px;
     --fs-70: 70px;
+    --fs-30: 30px;
     --fs-25: 25px;
     --fs-21: 21px;
     --fs-20: 20px;
@@ -90,6 +91,10 @@
 
 .fs-25 {
     font-size: var(--fs-25);
+}
+
+.fs-30 {
+    font-size: var(--fs-30);
 }
 
 .fs-50 {
