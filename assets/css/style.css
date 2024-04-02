@@ -79,8 +79,8 @@
     width: 43px;
     height: 43px;
     right: -22px;
-    background-color: #009DFF;
-    border: 3.23px solid #FFFFFF;
+    background-color: var(--timeline-color);
+    border: 3.23px solid var(--white-color);
     box-shadow: 0px 0px 0px 10px rgba(0, 157, 255, 10%);
     top: -1px;
     border-radius: 50%;
@@ -244,7 +244,7 @@
 }
 
 .box1-col4:hover {
-    background-image: linear-gradient(to right, var(--color-43) 0%, var(--black-color) 100%);
+    background-image: linear-gradient(to right, var(--timeline-color) 0%, var(--btn-color) 100%);
     border: 1px solid var(--white-color);
     box-shadow: 0px 0px 10px var(--white-color);
 }
@@ -289,7 +289,7 @@
         flex-direction: column;
         z-index: 4;
         transition: all 200ms linear !important;
-        background-image: linear-gradient(to right, var(--color-43) 0%, var(--black-color) 100%);
+        background-image: linear-gradient(to right, var(--timeline-color) 0%, var(--btn-color) 100%);
     }
 
     .menubar {
