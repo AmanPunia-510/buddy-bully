@@ -4,6 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -17,7 +22,7 @@
 
 <body class="body-bg">
 
-    <section class="section1 w-100 min-vh-100 d-flex flex-column">
+    <section class="section1 w-100 min-vh-100 d-flex flex-column position-relative">
         <div class="container">
             <nav class="d-flex justify-content-between align-items-center pt-4">
                 <div class="logo fw-600 fs-21 lh-150 ff-poppins white-color">Logo</div>
@@ -28,29 +33,29 @@
                     <span></span>
                 </div>
                 <div class="navbar-items d-flex gap-80 align-items-center">
-                    <li class="list list1"><a href="#"
+                    <li class="list list1"><a href="#mint"
                             class="text-decoration-none ff-poppins white-color fw-500 fs-18 lh-150">Minting</a>
                     </li>
 
-                    <li class="list list2"><a href="#"
+                    <li class="list list2"><a href="#section4"
                             class="text-decoration-none ff-poppins white-color fw-500 fs-18 lh-150">Road Map</a>
                     </li>
 
-                    <li class="list list3"><a href="#"
+                    <li class="list list3"><a href="#accordian"
                             class="text-decoration-none ff-poppins white-color fw-500 fs-18 lh-150">Faq</a>
                     </li>
 
-                    <li class="list list4"><a href="#"
+                    <li class="list list4"><a href="#team"
                             class="text-decoration-none ff-poppins white-color fw-500 fs-18 lh-150">Team</a>
                     </li>
 
-                    <li class="list list5"><a href="#"
+                    <li class="list list5"><a href="#join"
                             class="text-decoration-none ff-poppins white-color fw-500 fs-18 lh-150">Join Us</a>
                     </li>
                 </div>
             </nav>
         </div>
-        <div class="container d-flex flex-grow-1">
+        <div class="container d-flex flex-grow-1 position-relative z-1">
             <div class="row align-items-center">
                 <div class="col-12">
                     <h2 class="sec1-h white-color ff-poppins fw-400 fs-25 fs-sm-50 fs-lg-70 lh-150 mb-0">Vitae nunc,<br>
@@ -64,15 +69,13 @@
                 </div>
             </div>
         </div>
+        <div class="bg-image position-absolute w-100">
+            <img src="./assets/images/hero_section_blur_section.png" alt="section2-col6-bg" class="bg-img-sec2 w-100">
+        </div>
     </section>
 
-    <section class="section2 position-relative mt-26">
-        <!-- 
-        <div class="bg-image position-absolute">
-            <img src="./assets/images/section2-col6-bg.png" alt="section2-col6-bg" class="bg-img-sec2">
-        </div> -->
-
-        <div class="container">
+    <section class="section2 position-relative mt-26" id="mint">
+        <div class="container position-relative z-1">
             <div class="row align-items-lg-end">
                 <div class="col-12 col-lg-6">
                     <img src="./assets/images/section2-col6.gif" alt="section2-col6" class="col6-sec2 w-100">
@@ -139,18 +142,21 @@
                 </div>
             </div>
         </div>
+        <img src="./assets/images/section2-col6-bg.png" alt="section2-bg" class="section2-bg w-75 position-absolute">
     </section>
 
-    <section class="section3 pt-125">
-        <div class="container">
+    <section class="section3 pt-125 position-relative">
+        <div class="container position-relative z-1">
             <div class="row">
                 <div class="col-12 col-lg-6 col-xl-4 mb-40 mb-lg-40">
                     <div class="box1-col4">
                         <div class="image1-col4">
                             <img src="./assets/images/sec3-img1.png" alt="sec3-img1" class="cart1-img">
                         </div>
-                        <div class="ff-poppins fw-500 fs-36 lh-150 white-color pt-44 text-nowrap">ART COLLECTION</div>
-                        <div class="fw-400 fs-16 lh-150 color-b3 ff-poppins pt-4">Complete the art collection in full
+                        <div class="ff-poppins fw-500 fs-25 fs-sm-36 lh-150 white-color pt-44 text-nowrap">ART
+                            COLLECTION</div>
+                        <div class="fw-400 fs-16 lh-150 color-b3 ff-poppins pt-2 pt-sm-4">Complete the art collection in
+                            full
                             with +70 unique traits, and publish our rarity chart on our webpage.</div>
                     </div>
                 </div>
@@ -158,10 +164,12 @@
                 <div class="col-12 col-lg-6 col-xl-4 mb-40 mb-lg-40">
                     <div class="box1-col4">
                         <div class="image1-col4">
-                            <img src="./assets/images/sec3-img1.png" alt="sec3-img1" class="cart1-img">
+                            <img src="./assets/images/sec3-img2.png" alt="sec3-img1" class="cart1-img">
                         </div>
-                        <div class="ff-poppins fw-500 fs-36 lh-150 white-color pt-44 text-nowrap">SPECIAL BULLIES</div>
-                        <div class="fw-400 fs-16 lh-150 color-b3 ff-poppins pt-4">20 Buddybullies {out of 10k} will have
+                        <div class="ff-poppins fw-500 fs-25 fs-sm-36 lh-150 white-color pt-44 text-nowrap">SPECIAL
+                            BULLIES</div>
+                        <div class="fw-400 fs-16 lh-150 color-b3 ff-poppins pt-2 pt-sm-4">20 Buddybullies {out of 10k}
+                            will have
                             a very special and ersonalized resembling of famous people who are into NFTs
                             {those will be available after the minting}.</div>
                     </div>
@@ -170,10 +178,11 @@
                 <div class="col-12 col-lg-6 col-xl-4 mb-40 mb-lg-40">
                     <div class="box1-col4">
                         <div class="image1-col4">
-                            <img src="./assets/images/sec3-img1.png" alt="sec3-img1" class="cart1-img">
+                            <img src="./assets/images/sec3-img3.png" alt="sec3-img1" class="cart1-img">
                         </div>
-                        <div class="ff-poppins fw-500 fs-36 lh-150 white-color pt-44">BREEDING</div>
-                        <div class="fw-400 fs-16 lh-150 color-b3 ff-poppins pt-4">Our BuddyBullies will not come alone,
+                        <div class="ff-poppins fw-500 fs-25 fs-sm-36 lh-150 white-color pt-44">BREEDING</div>
+                        <div class="fw-400 fs-16 lh-150 color-b3 ff-poppins pt-2 pt-sm-4">Our BuddyBullies will not come
+                            alone,
                             as we will announce the breeding function after the minting and you will be able
                             to get a PuppyBully { for free}.</div>
                     </div>
@@ -182,10 +191,11 @@
                 <div class="col-12 col-lg-6 col-xl-4 mb-40 mt-xl-40">
                     <div class="box1-col4">
                         <div class="image1-col4">
-                            <img src="./assets/images/sec3-img1.png" alt="sec3-img1" class="cart1-img">
+                            <img src="./assets/images/sec3-img4.png" alt="sec3-img1" class="cart1-img">
                         </div>
-                        <div class="ff-poppins fw-500 fs-36 lh-150 white-color pt-44 text-nowrap">DIGITALMARKETS</div>
-                        <div class="fw-400 fs-16 lh-150 color-b3 ff-poppins pt-4">Communicate with all the
+                        <div class="ff-poppins fw-500 fs-25 fs-sm-36 lh-150 white-color pt-44 text-nowrap">
+                            DIGITALMARKETS</div>
+                        <div class="fw-400 fs-16 lh-150 color-b3 ff-poppins pt-2 pt-sm-4">Communicate with all the
                             digital markets available in the Solana NFT world for getting our collection successfully
                             listed.</div>
                     </div>
@@ -194,10 +204,11 @@
                 <div class="col-12 col-lg-6 col-xl-4 mb-40 mt-xl-40">
                     <div class="box1-col4">
                         <div class="image1-col4">
-                            <img src="./assets/images/sec3-img1.png" alt="sec3-img1" class="cart1-img">
+                            <img src="./assets/images/sec3-img5.png" alt="sec3-img1" class="cart1-img">
                         </div>
-                        <div class="ff-poppins fw-500 fs-36 lh-150 white-color pt-44">MERCH</div>
-                        <div class="fw-400 fs-16 lh-150 color-b3 ff-poppins pt-4">The team is working on the future
+                        <div class="ff-poppins fw-500 fs-25 fs-sm-36 lh-150 white-color pt-44">MERCH</div>
+                        <div class="fw-400 fs-16 lh-150 color-b3 ff-poppins pt-2 pt-sm-4">The team is working on the
+                            future
                             merch thet will be available for the community members directly on our webpage.</div>
                     </div>
                 </div>
@@ -205,10 +216,10 @@
                 <div class="col-12 col-lg-6 col-xl-4 mb-40 mt-xl-40">
                     <div class="box1-col4">
                         <div class="image1-col4">
-                            <img src="./assets/images/sec3-img1.png" alt="sec3-img1" class="cart1-img">
+                            <img src="./assets/images/sec3-img6.png" alt="sec3-img1" class="cart1-img">
                         </div>
-                        <div class="ff-poppins fw-500 fs-36 lh-150 white-color pt-44">CHARITY</div>
-                        <div class="fw-400 fs-16 lh-150 color-b3 ff-poppins pt-4">We will be giving 30% of the
+                        <div class="ff-poppins fw-500 fs-25 fs-sm-36 lh-150 white-color pt-44">CHARITY</div>
+                        <div class="fw-400 fs-16 lh-150 color-b3 ff-poppins pt-2 pt-sm-4">We will be giving 30% of the
                             royalties to charity permanently
                             and we will keep spending on marketing, promotions and partnership.50% of the riyalties will
                             go back to the community as
@@ -217,10 +228,12 @@
                 </div>
             </div>
         </div>
+        <img src="./assets/images/section2-right.png" alt="section2-right"
+            class="section3-right w-50 position-absolute">
     </section>
 
-    <div class="section4 mb-140">
-        <div class="container">
+    <div class="section4 mb-140 position-relative" id="section4">
+        <div class="container position-relative z-1">
             <div class="roadmap mt-90 mb-63 fw-600 fs-50 ff-poppins lh-150 white-color text-center">Roadmap</div>
 
             <section class="timeline position-relative">
@@ -253,25 +266,27 @@
                 </div>
             </section>
         </div>
+        <img src="./assets/images/timeline-right.png" alt="timeline-right" class="timline-left position-absolute">
     </div>
 
-    <section class="section5">
-        <div class="container">
+    <section class="section5 position-relative" id="accordian">
+        <div class="container position-relative z-1">
             <div class="sec5-p mx-auto mb-100 fs-30 fw-500 lh-150 text-center ff-poppins white-color">And this just the
                 begining , the team is working on more suprises for our community. Buddybullies stronger together !!
             </div>
             <div class="faq fw-600 fs-50 lh-150 white-color text-center ff-poppins mb-5">FAQs</div>
         </div>
 
-        <div class="container">
-            <div class="accordian d-flex flex-column align-items-center w-100">
+        <div class="container position-relative z-1">
+            <div class="accordian d-flex flex-column align-items-center w-100 position-relative z-1">
                 <div class="accordian-box w-100">
                     <div class="accordian-txt-svg mb-4 d-flex align-items-center justify-content-between">
                         <div class="accordian-h fw-500 fs-20 lh-150 ff-poppins white-color">What’s the blockchain the
                             buddybullies call home ?</div>
                         <div class="accordian-svg"><i class="fa-solid white-color fa-chevron-down"></i></div>
                     </div>
-                    <p class="accordian-p ff-mono fw-500 fs-16 lh-150 color-80">Hac varius turpis sit pulvinar lorem
+                    <p class="accordian-p ff-mono fw-500 fs-16 lh-150 color-80 d-none">Hac varius turpis sit pulvinar
+                        lorem
                         magna velit sit. Dapibus mattis adipiscing ornare arcu vitae enim. Proin turpis
                         enim egestas sed in accumsan, feugiat neque turpis. Fringilla dui donec nullam faucibus vitae
                         non, integer. Non.</p>
@@ -283,7 +298,8 @@
                             buddybullies call home ?</div>
                         <div class="accordian-svg"><i class="fa-solid white-color fa-chevron-down"></i></div>
                     </div>
-                    <p class="accordian-p ff-mono fw-500 fs-16 lh-150 color-80">Hac varius turpis sit pulvinar lorem
+                    <p class="accordian-p ff-mono fw-500 fs-16 lh-150 color-80 d-none">Hac varius turpis sit pulvinar
+                        lorem
                         magna velit sit. Dapibus mattis adipiscing ornare arcu vitae enim. Proin turpis
                         enim egestas sed in accumsan, feugiat neque turpis. Fringilla dui donec nullam faucibus vitae
                         non, integer. Non.</p>
@@ -295,7 +311,8 @@
                             buddybullies call home ?</div>
                         <div class="accordian-svg"><i class="fa-solid white-color fa-chevron-down"></i></div>
                     </div>
-                    <p class="accordian-p ff-mono fw-500 fs-16 lh-150 color-80">Hac varius turpis sit pulvinar lorem
+                    <p class="accordian-p ff-mono fw-500 fs-16 lh-150 color-80 d-none">Hac varius turpis sit pulvinar
+                        lorem
                         magna velit sit. Dapibus mattis adipiscing ornare arcu vitae enim. Proin turpis
                         enim egestas sed in accumsan, feugiat neque turpis. Fringilla dui donec nullam faucibus vitae
                         non, integer. Non.</p>
@@ -307,18 +324,21 @@
                             buddybullies call home ?</div>
                         <div class="accordian-svg"><i class="fa-solid white-color fa-chevron-down"></i></div>
                     </div>
-                    <p class="accordian-p ff-mono fw-500 fs-16 lh-150 color-80">Hac varius turpis sit pulvinar lorem
+                    <p class="accordian-p ff-mono fw-500 fs-16 lh-150 color-80 d-none">Hac varius turpis sit pulvinar
+                        lorem
                         magna velit sit. Dapibus mattis adipiscing ornare arcu vitae enim. Proin turpis
                         enim egestas sed in accumsan, feugiat neque turpis. Fringilla dui donec nullam faucibus vitae
                         non, integer. Non.</p>
                 </div>
             </div>
         </div>
+
+        <img src="./assets/images/section2-right.png" alt="section2-right" class="accordian-right position-absolute">
     </section>
 
-    <section class="section6 pt-110">
+    <section class="section6 pt-110" id="team">
         <div class="container">
-            <div class="faq fw-600 fs-50 lh-150 white-color text-center ff-poppins mb-5">Our Team</div>
+            <div class="faq fw-600 fs-50 lh-150 white-color text-center ff-poppins mb-3 mb-sm-5">Our Team</div>
             <div class="row align-items-center">
                 <div class="col-12 pt-4 pt-md-0 col-md-6 col-lg-4">
                     <img src="./assets/images/image1-sec6.png" alt="image1-sec6" class="image1-sec6 w-100">
@@ -334,7 +354,8 @@
                     <div class="product fw-400 fs-18 lh-150 white-color text-center ff-poppins">Pruduct Designer</div>
                 </div>
 
-                <div class="col-12 pt-4 pt-md-5 pt-lg-0 d-flex justify-content-center d-lg-inline-block col-md-12 col-lg-4">
+                <div
+                    class="col-12 pt-4 pt-md-5 pt-lg-0 d-flex justify-content-center d-lg-inline-block col-md-12 col-lg-4">
                     <div class="box-cart3">
                         <img src="./assets/images/image3-sec6.png" alt="image1-sec6" class="image1-sec6 w-100">
                         <div class="prime-bullister ff-poppins white-color lh-150  fw-600 fs-30 text-center pt-32">Prime
@@ -347,11 +368,11 @@
         </div>
     </section>
 
-    <footer class="footer">
+    <footer class="footer" id="join">
         <div class="container pt-179">
             <div class="join fw-600 fs-50 lh-150 ff-poppins white-color text-center">JOIN US</div>
             <div class="row pt-80">
-                <div class="col-8">
+                <div class="col-12 col-lg-8">
                     <div class="logo fw-500 fs-30 lh-150 ff-poppins white-color">LOGO</div>
                     <div class="footer-p color-80 ff-poppins lh-150 fw-400 fs-16 pt-21">Aenean arcu sed rhoncus sapien
                         euismod cursus morbi lacus, blandit. Placerat tortor duis fames cras pellentesque dui
@@ -361,27 +382,30 @@
                             class="text-decoration-none ff-poppins fw-400 fs-16 lh-150 white-color">Email@gmail.com</a>
                     </div>
                 </div>
-                <div class="col-4 pt-65">
+                <div class="col-12 col-lg-4 pt-65">
                     <div class="row">
                         <div class="col-6">
                             <div class="resource fs-16 fw-500 lh-150 white-color ff-poppins">Resources</div>
-                            <a href="#" class="text-decoration-none">
-                                <div class="roadmap fw-400 fs-14 lh-150 ff-poppins white-color pt-10">Roadmap</div>
-                            </a>
 
-                            <a href="#" class="text-decoration-none pt-6">
-                                <div class="roadmap fw-400 fs-14 lh-150 ff-poppins white-color pt-10">FAQs</div>
-                            </a>
+                            <div class="roadmap pt-10"><a href="#"
+                                    class="text-decoration-none  fw-400 fs-14 lh-150 ff-poppins white-color">Roadmap</a>
+                            </div>
 
-                            <a href="#" class="text-decoration-none pt-6">
-                                <div class="roadmap fw-400 fs-14 lh-150 ff-poppins white-color pt-10">Mint your Bully
-                                </div>
-                            </a>
+
+                            <div class="roadmap pt-10"><a href="#"
+                                    class="text-decoration-none  fw-400 fs-14 lh-150 ff-poppins white-color pt-6">FAQs</a>
+                            </div>
+
+
+                            <div class="roadmap pt-10"><a href="#"
+                                    class="text-decoration-none  fw-400 fs-14 lh-150 ff-poppins white-color pt-6">Mint
+                                    your Bully</a>
+                            </div>
                         </div>
 
                         <div class="col-6">
                             <div class="resource fs-16 fw-500 lh-150 white-color ff-poppins">Community</div>
-                            <div class="social-svg d-flex align-items-center gap-4 pt-4">
+                            <div class="social-svg d-flex align-items-center gap-2 gap-sm-4 pt-4">
                                 <a href="#" class="text-decoration-none">
                                     <div class="insta-svg commen-svg">
                                         <svg width="33" height="33" viewBox="0 0 33 33" fill="none"
@@ -420,6 +444,7 @@
             </div>
         </div>
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>

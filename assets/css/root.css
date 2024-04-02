@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     list-style-type: none;
+    transition: none !important;
 }
 
 :root {
@@ -48,6 +49,7 @@
     --btn-color: #001D49;
     --box1-col4: #031227;
     --accordian-color: #031227;
+    --color-43: #434343;
 }
 
 .ff-poppins {
@@ -171,6 +173,14 @@
 
     .fs-sm-20 {
         font-size: var(--fs-20);
+    }
+
+    .fs-sm-30 {
+        font-size: var(--fs-sm-30);
+    }
+
+    .fs-sm-36 {
+        font-size: var(--fs-36);
     }
 }
 
